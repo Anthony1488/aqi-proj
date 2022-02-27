@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.input {
+  width: 70%;
+}
+.card {
+  width: 70%;
+}

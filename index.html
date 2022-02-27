@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air quality</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <div class="card">
+        <div class="card-header">
+            <H1 class="card-header-title">Air Quality Service</H1>
+        </div>
+
+        <form class="card-content"action="#">
+            <input class="input" type="text" id="search-input">
+            <button class="button is-info is-light" id="search-btn">Submit</button>
+            <div class="content">
+                <H3 class="m-4" id="current-city"></H3>
+                <H1 id="aqi"></H1>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
